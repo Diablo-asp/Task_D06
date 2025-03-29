@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-Account", "OOP-Account\OOP-Account.csproj", "{B320BD55-6764-4E73-B39C-6212699F3C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception if task", "..\Exception if\exception if task\exception if task.csproj", "{0BA99672-8363-D430-6488-16F562069821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception String", "..\Exception if\Exception String\Exception String.csproj", "{31881D53-84F6-624D-7D12-FF885C96DC21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B320BD55-6764-4E73-B39C-6212699F3C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B320BD55-6764-4E73-B39C-6212699F3C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B320BD55-6764-4E73-B39C-6212699F3C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA99672-8363-D430-6488-16F562069821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA99672-8363-D430-6488-16F562069821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA99672-8363-D430-6488-16F562069821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA99672-8363-D430-6488-16F562069821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31881D53-84F6-624D-7D12-FF885C96DC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31881D53-84F6-624D-7D12-FF885C96DC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31881D53-84F6-624D-7D12-FF885C96DC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31881D53-84F6-624D-7D12-FF885C96DC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
