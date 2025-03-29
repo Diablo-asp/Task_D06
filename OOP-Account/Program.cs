@@ -189,7 +189,14 @@ public class TrustAccount : Account
     private double WithdrawPerYear { get; set; }
     private double MaxWithdraw { get; set; }
 
-
+    private void updateWithdrawCount()
+    {
+        if (DateTime.Now.Year != DateTime.Now.Year)
+        {
+            WithdrawPerYear = 0;
+            Console.WriteLine("withdraw count has been updated");
+        }
+    }
     public new bool Deposit(double amount)
     {
         
@@ -211,6 +218,7 @@ public class TrustAccount : Account
 
     public new bool Withdraw(double amount)
     {
+        updateWithdrawCount();
         int withdrawCount = 0;
         if (Balance - amount >= 0 && withdrawCount < WithdrawPerYear && amount <= (Balance * MaxWithdraw))
         {
@@ -223,6 +231,7 @@ public class TrustAccount : Account
             return false;
         } 
     }
+
 }
 
 
